@@ -7,11 +7,16 @@
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <h1> Hi </h1>
-    <div id="main"></div>
-    <script type="module" src="main.js"></script>
-    <script type="module" src="feature/catalog.js"></script>
-    <script type="module" src="feature/createPlaylist.js"></script>
-    <script type="module" src="feature/playlistRender.js"></script>
+    <form id="playlist-form">
+        <input type="text" id="artist" placeholder="Artist" required>
+        <input type="text" id="genre" placeholder="Genre" required>
+        <input type="text" id="imageURL" placeholder="Image Url" required>
+        <input type="text" id="songs" placeholder="Songs (seperate with ,)" required>
+        <button> add artist catalog </button>
+    </form>
+
+    <section id="playlist-container"></section>
+
+    <script src="main.js"></script>
 </body>
 </html>

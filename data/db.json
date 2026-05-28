@@ -1,0 +1,44 @@
+{
+  "playlists": [
+    {
+      "id": "1",
+      "genre": "Rock",
+      "artist": "Pink Floyed",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ab/The_Dark_Side_of_the_Moon_cover.svg/250px-The_Dark_Side_of_the_Moon_cover.svg.png",
+      "songs": [
+        "Learning to Fly",
+        "Time"
+      ]
+    },
+    {
+      "id": "2",
+      "genre": "Electronic",
+      "artist": "Daft Punk",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Daft_Punk_in_2013_2-_centered.jpg/330px-Daft_Punk_in_2013_2-_centered.jpg",
+      "songs": [
+        "One More Time",
+        "test"
+      ]
+    },
+    {
+      "id": "3",
+      "genre": "Poprock",
+      "artist": "Olle Ljungström",
+      "imageURL": "https://upload.wikimedia.org/wikipedia/commons/b/b6/OlleLjungstr%C3%B6m.jpg",
+      "songs": [
+        "Jag och min far"
+      ]
+    },
+    {
+      "artist": "test",
+      "genre": "test",
+      "imageURL": "test",
+      "songs": [
+        "test",
+        " test2"
+      ],
+      "id": "3bk5ga5ZjYM"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

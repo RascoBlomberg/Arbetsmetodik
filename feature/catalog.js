@@ -17,13 +17,13 @@ export function renderHome(main, playlists, currentSort) {
     const playlistContainer = document.createElement("div");
     playlistContainer.classList.add("playlist.container");
 
-    playlists.forEach((playlists, index) => {
+    playlists.forEach((playlist, index) => {
         const playlistButton = document.createElement("button");
 
         playlistButton.textContent = `P${index + 1}`;
 
         playlistButton.addEventListener("click", () => {
-            renderplaylist()
+            renderplaylist(main, playlist, currentSort)
         });
         playlistContainer.appendChild(playlistButton);
     }) ;

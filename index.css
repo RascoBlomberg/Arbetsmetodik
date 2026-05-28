@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+  padding: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.playlist-container {
+  margin-top: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+
+  border-bottom: 2px solid black;
+
+  margin: 20px 0;
+  padding: 10px 0;
+}
+
+.row p {
+  width: 200px;
+}

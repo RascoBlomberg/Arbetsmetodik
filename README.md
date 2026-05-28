@@ -9,7 +9,7 @@ npx json-server data/db.json
 
 ```
 
-Efter detta så öppnar du ```index.html``` fill antingen via LiveServer eller igenom att dubbelklicka på ```html``` filen
+Efter detta så öppnar du ```index.html``` fill antingen via LiveServer eller igenom att höger klicka på ```html``` filen och välja ``` Open in Integrated Terminal```
 
 dokumentation
 
